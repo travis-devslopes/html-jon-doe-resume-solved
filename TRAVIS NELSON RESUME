@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travis Nelson's Resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/scripts.js" defer></script>
+  </head>
+  <body class="fancy-body">
+    <h1 id="candidate-name">Travis Nelson</h1>
+    <h2 id="candidate-desired-role">Talented Frontend Developer</h2>
+    <img
+      id="candidate-image"
+      src="./assets/avatars/fake_person.jpg"
+      alt="Jon Doe's Resume"
+    />
+
+    <h3 id="about-me">About Me</h3>
+    <p class="candidate-bio">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+    </p>
+
+    <h3 id="skills">My Skills</h3>
+    <ol id="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git</li>
+      <li>Node.js</li>
+    </ol>
+
+    <h3 id="hobbies">My Hobbies</h3>
+    <ul id="hobbies-list">
+      <li>Photography</li>
+      <li>Gaming</li>
+      <li>Traveling</li>
+      <li>Reading</li>
+    </ul>
+
+    <h3 id="contacts">Contact Me</h3>
+    <table class="contacts-table">
+      <tr>
+        <th>Service</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <th>Discord</th>
+        <td>YourDiscord#1234</td>
+      </tr>
+      <tr>
+        <th>LinkedIn</th>
+        <td>
+          <a
+            href="https://www.linkedin.com/in/travis-nelson-503PDX"
+            target="_blank"
+            >travis-nelson-503PDX</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>
+          <a href="mailto:travis.devslopes@gmail.com"
+            >travis.devslopes@gmail.com</a
+          >
+        </td>
+      </tr>
+      <tr>
+        <th>GitHub</th>
+        <td>
+          <a href="https://github.com/travis-devslopes" target="_blank"
+            >travis-devslopes</a
+          >
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
